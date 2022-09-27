@@ -11,6 +11,7 @@
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -19,6 +20,8 @@
         <ul>
           <li>Enter your HTML notes here</li>
           <li>The head element contains information about the webpage.</li>
+          <li>The head element is a container for metadata. The user wont see information in the head or meta elements.</li>
+          <li>The meta elements contain information about the page that is used by the browser. The user wont see information in the head or meta elements.</li>
           <li>The body element represents the visible content shown to the user.</li>
           <li>The li element represents a new bullet point in our list.</li>
           <li>The section element are semantic elements that define a section in a document that contains thematic content.</li>
@@ -56,6 +59,7 @@
        <li>git add -a: use this command to save all changes you make in your code in VS</li>
        <li>git commit -m: use this command to commit after staging files and add a message within ".." with the commit message ex. "fixed bug in html main file header"</li>
        <li>git pull origin main: pulls the source code from github to ensure that we have the latest commits and changes. Terminal should say "already/branch is up to date."</li>
+       <li>gitbash: to create a new file in for example assets folder, type: touch 'script.js', or touch 'name of file'</li>
      </ul>
    
       </section>
@@ -64,6 +68,26 @@
         <h2>JavaScript</h2>
         <ul> 
         <li>Enter your Javascript notes here</li>
+        <li>A variable is a named container that allows us to store data in our code.</li>
+        <li>Control flow is the order in which a computer executes code in a script.</li>
+        <li>Comments: /*Everything in between is a comment.*/ or we can use // if the comment is on the same line.</li>
+        <li>Boolean: This is a True/False value. The words true and false are special keywords that don't need quote marks. Example: let myVariable = true;</li>
+        <li>Assignmen: As you've seen already: this "=" assigns a value to a variable.</li>
+        <li>Strict equality: This '===' performs a test to see if two values are equal. It returns a true/false (Boolean) result.</li>
+        <li>What exactly do we mean by “truthy” and “falsy” in Javascript? 
+          A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false.
+          All other values, including a Boolean with the value of true, are considered truthy.</li>
+        <li>An array: is a single variable that is used to hold a group of data. Example: var shapes = ["triangle", "square", "pentagon", "circle"];</li>
+        <li>A single array can store different types of data, such as strings, numbers, and so on. Example: var studentInfo = ["Lu", 54, true];</li>
+        <li>Arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1. Example: ["triangle", "square", "pentagon", "circle"] = 0, 1, 2, 3...,</li>
+        <li>In order to see one of the data in the array we have to type in console.log(shapes[0]); ( we would then see the triangle) 
+          (var shapes = ["triangle", "square", "pentagon", "circle"];)</li>
+        <li>for loop: A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+        <li>Example of a for loop: for(var x = 0; x < shapes.length; x++)</li>
+        <li>While writing a for loop. Think of length = the length of the array topics 0,1,2,3.. so the length will be 4.</li>
+        <li>A function is different from a for loop or conditional statement because functions do not automatically execute when the JavaScript file (in our case, script.js) is run.
+          Example of function: function selectTopic()</li>
+        <li>Function: functions needs to be called (call a function). Example: function listTopics(). To call it you type: 'listTopics()' under the function code.</li> 
         </ul>
    
       </section>
@@ -71,6 +95,7 @@
 
     <footer>
       <p>I can code!</p>
-    </footer>
+  </footer>
+  <script src="./assets/script.js"></script>
   </body>
 </html>
