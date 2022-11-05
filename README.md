@@ -3,7 +3,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 This is my first project as a bootcamp student and this study guide is created for students to make it easy to get through the Prework for the Bootcamp. This guide contains notes to help you understand HTML, CSS, Git and JavaScript. During this project I have learned alot about designing a website and writing code in JavaScript.  
 
@@ -11,7 +10,6 @@ This is my first project as a bootcamp student and this study guide is created f
 ## Installation
 N/A
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
